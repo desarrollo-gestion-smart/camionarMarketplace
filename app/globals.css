@@ -56,3 +56,61 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 }
+
+.bg-camionar {
+  background-color: #1a4876;
+}
+
+.text-camionar {
+  color: #1a4876;
+}
+
+.border-camionar {
+  border-color: #1a4876;
+}
+
+.hover\:bg-camionar-dark:hover {
+  background-color: #0d3761;
+}
+
+/* Estilos para los componentes de shadcn/ui */
+.bg-primary {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.bg-secondary {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+}
+
+.bg-muted {
+  background-color: hsl(var(--muted));
+  color: hsl(var(--muted-foreground));
+}
+
+.bg-accent {
+  background-color: hsl(var(--accent));
+  color: hsl(var(--accent-foreground));
+}
+
+.bg-destructive {
+  background-color: hsl(var(--destructive));
+  color: hsl(var(--destructive-foreground));
+}
+
+.text-muted-foreground {
+  color: hsl(var(--muted-foreground));
+}
+
+.border-input {
+  border-color: hsl(var(--input));
+}
+
+.ring-offset-background {
+  --tw-ring-offset-color: hsl(var(--background));
+}
+
+.focus-visible\:ring-ring:focus-visible {
+  --tw-ring-color: hsl(var(--ring));
+}

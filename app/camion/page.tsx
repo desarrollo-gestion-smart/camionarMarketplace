@@ -273,7 +273,7 @@ export default function CamionesPage() {
                 <p className="text-lg text-gray-500">No se encontraron camiones con los filtros seleccionados</p>
                 <Button
                   variant="outline"
-                  className="mt-4"
+                  className="mt-4 "
                   onClick={() => {
                     setFilteredCamiones(CAMIONES_EJEMPLO)
                   }}
